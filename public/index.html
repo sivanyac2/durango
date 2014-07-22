@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="js/lib/jquery.hammer.min.js"></script>
+  <script type="text/javascript" src="js/lib/three.min.js"></script>
+
+  <script type="text/javascript" src="js/lib/THREEx.FullScreen.js"></script>
+  <script type="text/javascript" src="js/lib/detector.js"></script>
+  <script type="text/javascript" src="js/lib/stats.js"></script>
+
+
+  <script type="text/javascript" src="js/aquila.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <!-- Oculus Rift Stuff -->
+  <script src="lib/OculusBridge.min.js"></script>
+
+  <script src="lib/RiftCamera.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<title>Aquila prototype 1.0</title>
+<body>
+  <div id="aquila" style="">
+  </div>
+  <div class="controls">
+    <button class="fullscreen btn">
+      <span class="up icon">
+        &#8599;
+      </span>
+      <span class="down icon">
+        &#8601;
+      </span>
+    </button>
+  </div>
+
+
+
+  <script type="text/javascript">
+    init({
+      $target: $('#aquila'),
+      videoURL: './videos/tour.mp4'
+    });
+  </script>
+
+
+  <!-- GOOGLE ANALYTICS -->
+
+  <!-- /GOOGLE ANALYTICS -->
+</body></html>
